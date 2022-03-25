@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat";
+  font-size: 1rem;
 }
 
 .container-fluid {
@@ -8,27 +9,21 @@ body {
 
 #title {
   background-color: #4383F0;
-  ;
   color: #fff;
 }
 
-h1 {
-  font-weight: bold;
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-black";
   font-size: 2.5rem;
   line-height: 1.5;
 }
 
-h2 {
-  font-weight: bold;
-  font-size: 2.1rem;
-  line-height: 1.5;
-}
-
-h3 {
+.bigfont{
+  font-size: 3.5rem;
   font-weight: bold;
 }
-
 p {
+  font-size: 1.5rem;
   color: #534e4e;
 }
 
@@ -36,10 +31,14 @@ p {
 .navbar {
   padding: 0 0 5em;
 }
+.dropd{
+  color: #fff;
+  font-weight: 900;
+}
 
 .navbar-brand {
   font-family: "ubuntu";
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -51,7 +50,7 @@ p {
   font-weight: 800;
   color: #fff;
 }
-
+/* ==========CONTAINERS++++++++++ */
 /* =========DOWNLOAD BUTTON============ */
 .dwnld-btn {
   margin: 7% 3% 5% 0;
@@ -106,13 +105,15 @@ p {
 
 #press {
   background-color: #7798d1;
-  padding-bottom: 4%;
+  padding: 7% 15%;
   text-align: center;
 }
 
 .press-img {
-  width: 15%;
-  margin: 1.5em 1.5em 3em;
+  width: 80%;
+}
+.spoon{
+  padding-top: 3.2em;
 }
 
 .gallery {
@@ -158,9 +159,7 @@ p {
 .card-body>p>i {
   color: #4383F0;
 }
-.price-col{
-  padding: 3% 2%
-}
+
 /* ==========CALL TO ACTION============= */
 #cta{
   background-color: #4383F0;
@@ -202,12 +201,17 @@ p {
     text-align: center;
   }
   .phoneimg{
-    width: fit-content;
+    width: 100%;
     transform: rotate(0);
     position: static;
-    margin-left: 4em;
+
   }
   .imagephone{
     text-align: center;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
   }
 }
